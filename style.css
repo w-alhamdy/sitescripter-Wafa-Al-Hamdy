@@ -489,3 +489,28 @@ html {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Wafa Al-Hamdy Portfolio",
+  "url": "https://w-alhamdy.github.io/sitescripter.com/",
+  "creator": {
+    "@type": "Person",
+    "name": "Wafa Al-Hamdy"
+  },
+  "about": [
+    {
+      "@type": "WebSite",
+      "name": "Ikoku Protection and Justice",
+      "url": "https://ikokuug.org"
+    },
+    {
+      "@type": "WebSite",
+      "name": "Safari Sips",
+      "url": "https://safarisipsceo.github.io/Safari-Sips/"
+    }
+  ]
+}
+</script>
