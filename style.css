@@ -490,6 +490,29 @@ html {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -514,3 +537,4 @@ html {
   ]
 }
 </script>
+
