@@ -511,7 +511,11 @@ html {
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
-
+.center-container {
+  text-align: center;
+  border-radius: 50%;
+  
+}
 
 <script type="application/ld+json">
 {
@@ -537,6 +541,7 @@ html {
   ]
 }
 </script>
+
 
 
 
