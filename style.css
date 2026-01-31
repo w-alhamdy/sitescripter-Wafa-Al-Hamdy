@@ -492,7 +492,6 @@ html {
 
 .whatsapp-float {
   position: fixed;
-  text-decoration: none;
   bottom: 20px;
   right: 20px;
   background-color: #25D366;
@@ -507,6 +506,11 @@ html {
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   z-index: 1000;
   transition: transform 0.3s ease;
+}
+
+.whatsapp-float,
+.whatsapp-float i {
+  text-decoration: none;
 }
 
 .whatsapp-float:hover {
@@ -538,5 +542,6 @@ html {
   ]
 }
 </script>
+
 
 
