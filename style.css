@@ -114,20 +114,6 @@ img {
   width: 80%;
 }
 
-.center container{
-    text-align: center;
-    margin: 20px 0;
-}
-
-@media (max-width: 768px) {
-    .center container img {
-        width: 80%; /* shrink for smaller screens */
-    }
-}
-.center container img{
-   display: inline-block;
-    max-width: 100%;
-    height: auto;
 form {
     max-width: 600px;
     margin: 40px auto;
@@ -697,4 +683,5 @@ html {
 }
 
 </script>
+
 
