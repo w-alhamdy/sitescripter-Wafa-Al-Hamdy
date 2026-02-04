@@ -107,6 +107,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+    text-align: center;
 
 }
 .project img {
@@ -684,6 +685,7 @@ html {
 }
 
 </script>
+
 
 
 
