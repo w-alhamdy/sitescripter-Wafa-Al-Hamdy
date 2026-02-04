@@ -431,6 +431,7 @@ html {
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
+    text-align: center;
 }
 
 /* Project cards */
@@ -683,5 +684,6 @@ html {
 }
 
 </script>
+
 
 
