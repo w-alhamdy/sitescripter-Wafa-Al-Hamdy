@@ -196,6 +196,16 @@ footer {
     text-decoration: none;
 }
 
+.stars-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.stars-center img {
+  max-width: 200px;
+  height: auto;
+}
 
 
 h1, h2 {
@@ -616,6 +626,7 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
   }
 
 }
+
 
 
 
