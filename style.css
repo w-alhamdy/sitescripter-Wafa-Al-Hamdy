@@ -12,10 +12,11 @@ body {
     background-color: #d3d7da;
 }
 
-html, body {
-  max-width: 100%;
-  overflow: hidden;
+  html, body {
+  overflow-x: hidden;
 }
+
+
 
 p {
     font-size: 16px;
@@ -26,14 +27,16 @@ p {
 }
 /* Ensure your content stays sharp and readable */
 .container {
-    position: relative;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white box for text */
-    padding: 30px;
-    border-radius: 12px;
-    margin: 40px auto;
-    max-width: 1000px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  position: relative;
+  background: rgba(255,255,255,.9);
+  padding: 30px;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
 }
+
 
 nav {
     background: #2c3e50; 
@@ -98,14 +101,12 @@ nav ul li a:hover {
     padding: 40px;
     text-align: center;
 }
-.gallery img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover; /* Prevents images from stretching */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
 }
+
 
 img {
   max-width: 100%;
@@ -165,13 +166,8 @@ summary { font-weight: bold; font-size: 1.1rem; }
 
 
 
-/* Container spacing */
-.container {
-    max-width: 1100px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-}
+
+
 
 /* Gallery Grid */
 .gallery {
@@ -210,16 +206,7 @@ footer {
   
 }
 
-.container {
-   
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-    line-height: 1.6;
-    color: #333;
-    font-family: sans-serif;
-    text-align: center;
-}
+
 
 h1, h2 {
     color: #2c3e50;
@@ -432,13 +419,6 @@ html {
     overflow-y: scroll; /* Forces scrollbar gutter to always exist */
 }
 
-/* Container */
-.container {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
-    text-align: center;
-}
 
 /* Project cards */
 .project {
@@ -574,13 +554,7 @@ html {
     text-align: center;
   }
 
-  /* Containers */
-  .container {
-    max-width: 95%;
-    padding: 15px;
-    margin: 20px auto;
-  }
-
+ 
   section {
     padding: 20px 10px;
   }
@@ -661,31 +635,6 @@ html {
 }
 
 
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Wafa Al-Hamdy Portfolio",
-  "url": "https://w-alhamdy.github.io/sitescripter.com/",
-  "creator": {
-    "@type": "Person",
-    "name": "Wafa Al-Hamdy"
-  },
-  "about": [
-    {
-      "@type": "WebSite",
-      "name": "Ikoku Protection and Justice",
-      "url": "https://ikokuug.org"
-    },
-    {
-      "@type": "WebSite",
-      "name": "Safari Sips",
-      "url": "https://safarisipsceo.github.io/Safari-Sips/"
-    }
-  ] 
-}
-
-</script>
 
 
 
