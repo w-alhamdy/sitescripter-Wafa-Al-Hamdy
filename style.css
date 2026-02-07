@@ -111,13 +111,10 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-    text-align: center;
+    
 
 }
-.project img {
-  max-width: 500px;
-  width: 80%;
-}
+
 
 form {
     max-width: 600px;
@@ -623,11 +620,7 @@ html {
     grid-template-columns: 1fr;
   }
 
-  /* PROJECTS */
-  .project img {
-    max-width: 100%;
-    width: 100%;
-  }
+  
 
   .project-content {
     padding: 15px;
@@ -693,6 +686,7 @@ html {
 }
 
 </script>
+
 
 
 
