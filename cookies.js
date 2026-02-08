@@ -2,7 +2,7 @@
 
   // Accept all cookies
   acceptBtn.addEventListener("click", function() {
-    localStorage.setItem("cookieConsent", "all");
+    localStorage.setItem("cookieConsent", "accept all");
     cookieBar.style.display = "none";
     console.log("Visitor accepted all cookies");
     // Here you can load analytics scripts if needed
@@ -24,5 +24,6 @@
     // Block analytics scripts
   });
 });
+
 
 
