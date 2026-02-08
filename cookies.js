@@ -1,3 +1,5 @@
+console.log("cookies.js loaded");
+
 window.addEventListener("load", () => {
   CookieConsent.run({
 
@@ -43,3 +45,4 @@ window.addEventListener("load", () => {
 
   });
 });
+
