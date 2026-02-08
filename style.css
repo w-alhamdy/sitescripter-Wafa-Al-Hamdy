@@ -633,23 +633,7 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 
 }
 
-.site-footer {
-  text-align: center;
-  padding: 25px;
-  font-size: 14px;
-  background: #111;
-  color: #aaa;
-  margin-top: 60px;
-}
 
-.site-footer a {
-  color: #00e5ff;
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-shadow: 0 0 10px #00e5ff;
-}
 
 .cookie-bar {
   position: fixed;
@@ -685,6 +669,16 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
   transform: translateY(-100%);
 }
 
+
+.cookie-bar {
+  transform: translateY(-100%);
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
 
 
 
