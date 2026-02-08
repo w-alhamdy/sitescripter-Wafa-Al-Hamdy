@@ -10,3 +10,13 @@ document.querySelector(".close-cb").addEventListener("click", function() {
   document.querySelector(".cookie-bar").classList.add("hide");
   localStorage.setItem("cookieConsent", "true"); // remember user choice
 });
+
+.cookie-bar {
+  transform: translateY(-100%);
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
