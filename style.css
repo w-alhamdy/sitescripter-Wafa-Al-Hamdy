@@ -708,11 +708,31 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
   display: none;
 }
 
+.cookie-buttons {
+  margin-left: 20px;
+}
+
+.cookie-buttons button {
+  background-color: #00e5ff;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cookie-buttons button:hover {
+  box-shadow: 0 0 8px #00e5ff;
+}
+
 
 @keyframes slideDown {
   from { transform: translateY(-100%); }
   to { transform: translateY(0); }
 }
+
 
 
 
