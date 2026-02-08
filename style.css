@@ -633,6 +633,23 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 
 }
 
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #111;
+  color: #aaa;
+}
+
+.site-footer a {
+  color: #00e5ff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-shadow: 0 0 8px #00e5ff;
+}
+
 
 
 
