@@ -635,10 +635,11 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 
 .site-footer {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   font-size: 14px;
   background: #111;
   color: #aaa;
+  margin-top: 60px;
 }
 
 .site-footer a {
@@ -647,15 +648,8 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 .site-footer a:hover {
-  text-shadow: 0 0 8px #00e5ff;
+  text-shadow: 0 0 10px #00e5ff;
 }
-
-
-
-
-
-
-
 
 
 
