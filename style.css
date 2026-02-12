@@ -94,6 +94,19 @@ nav ul li a:hover {
     
 }
 
+/* Fix image centering */
+.center-container {
+  text-align: center;
+}
+
+.center-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 .gallery {
     display: grid;
@@ -667,6 +680,7 @@ html {
   background: transparent;
   border: 1px solid white;
 }
+
 
 
 
