@@ -187,7 +187,7 @@ summary { font-weight: bold; font-size: 1.1rem; }
 }
 
 footer {
-    background-color: #ccc;
+    background-color: #aa8181;
     text-align: center;
     position: relative;
      padding: 15px;
@@ -511,69 +511,6 @@ html {
   transform: scale(1.1);
 }
 
-.center-container {
-  display: flex;
-  justify-content: center;
-}
-.center-container img {
-  max-width: 400px;   /* or 300px / 500px your choice */
-  width: 90%;
-  margin: 0 auto;
-    max-width: 350px;
-border-radius: 12px;
-box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-
-}
-
-
-/* Cookie Banner */
-.cookie-banner {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: #111;
-  color: white;
-  padding: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  z-index: 9999;
-  flex-wrap: wrap;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.3);
-}
-
-.cookie-banner p {
-  margin: 0;
-  font-size: 14px;
-  max-width: 600px;
-}
-
-.cookie-buttons {
-  display: flex;
-  gap: 10px;
-}
-
-.cookie-banner button {
-  padding: 8px 14px;
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-  font-size: 13px;
-  background: #ff4d4d;
-  color: white;
-}
-
-.cookie-banner button:hover {
-  opacity: 0.9;
-}
-
-.cookie-banner .outline {
-  background: transparent;
-  border: 1px solid white;
-}
-
 /* ================================
    📱 MOBILE RESPONSIVE FIXES
 ================================ */
@@ -730,6 +667,7 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
   background: transparent;
   border: 1px solid white;
 }
+
 
 
 
