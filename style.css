@@ -12,6 +12,11 @@ body {
     background-color: #d3d7da;
 }
 
+.topnav a.active {
+    color: #4CAF50; /* اللون الجديد للرابط النشط */
+    font-weight: bold;
+}
+
   html, body {
   overflow-x: hidden;
 }
@@ -707,6 +712,7 @@ html {
   background: transparent;
   border: 1px solid white;
 }
+
 
 
 
