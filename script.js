@@ -109,6 +109,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+// Highlight current page in menu
+const navLinks = document.querySelectorAll('.topnav a');
+const currentPage = window.location.pathname.split("/").pop(); // يعطي اسم الملف الحالي
+
+navLinks.forEach(link => {
+    if(link.getAttribute('href') === currentPage){
+        link.classList.add('active');
+    }
+});
 
 
 
